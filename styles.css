@@ -1,0 +1,331 @@
+html, body{
+     
+        margin: 0;
+        height:100%;
+        width:100%;
+        padding:0;
+    
+}
+
+
+body {
+    background-image: url("https://i.ibb.co/1ZvdZk4/background.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: "Source Sans Pro", "Spin-Cycle-OT";
+    
+}
+
+
+header{
+    margin: auto;
+    margin-top: 41px;
+    max-width: 70%;
+    margin-bottom: 20px;
+}
+
+
+
+.mainlinks{
+    float: right;
+    word-spacing: 52px;
+    font-weight: bold;
+}
+
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+}
+
+
+.bannerword{
+    font-size: 120px;
+    color: white;
+    margin-bottom: 0%;
+    max-height: 120px;
+}
+
+
+.smiles{
+    color: white;
+    word-spacing: 58px;
+    padding-top: 0%;
+    max-height: 100px;
+}
+
+
+.register{
+    background-color: #C271FF;
+    font-weight: 550;
+    color: white;
+    align-items: center;
+    border: none;
+    border-radius: 22px;
+    margin: 30px auto;
+    font-size: 11px;
+    padding: 15px 20px;
+    box-shadow: 0px 1px 6px 2px rgba(0, 0, 0, 0.3);
+}
+
+
+.links{
+    float: right;
+   
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.pros{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 60px 0px auto;
+}
+
+
+.learnheading{
+    color: white;
+    font-weight: 32;
+
+}
+
+.learnword{
+    color: #C271FF;
+    font-weight: bold;
+}
+
+
+.persons{
+    display: flex;
+    margin: auto;
+
+}
+
+.names{
+    color: white;
+    margin: 3px 1px auto;
+}
+
+
+
+.paddingclass{
+    color: white;
+    padding: 50px;
+    
+}
+
+.paddingclass p{
+    margin: 6px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quotecont{
+    background-color: #C271FF;
+    padding: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.quotetext{
+    color: white;
+    text-align: left;
+    margin: auto 53px;
+}
+
+.quotetext p {
+    margin: auto;
+}
+
+blockquote{
+    margin: 10px auto;
+}
+
+
+
+ .tutorials{
+    text-align: center;
+    background-color: white;
+    margin-bottom: 80px;
+}
+
+.tutorialheading{
+    padding: 60px 0px 40px;
+    font-weight: lighter;
+}
+
+
+.tutorials h2{
+    font-size: 16px;
+    text-align: left;
+}
+
+.tutorials p{
+    font-size: 14px;
+}
+
+ 
+.alltutorials{
+    display: flex;
+    justify-content: center; 
+}
+
+.tutorialmargin{
+    margin: auto 20px;
+}
+
+.tutorialmargin::before {
+    content: url(/photos/play.png);
+    position: absolute;
+    margin: 40px 97px ;
+}
+
+
+  .alltutorials p{
+    color: #071629;
+    width: 250px;
+    text-align: left;
+} 
+
+ .review{
+    display: flex;
+}  
+
+ .grade{
+   display: flex;
+   align-items: center;
+   margin-top: 5px;
+} 
+
+
+.border{
+    border-radius: 10px;
+}
+
+
+ .grade p{
+    width: auto;
+    margin: 0px auto;
+}
+
+.stars img {
+    padding-top: 3px;
+    padding: 6px;
+    padding-left: 0;
+}
+
+.alltutorials h3{
+    color: #C271FF;
+    font-size: 14px;
+    font-weight: 500;
+    margin: auto 10px;
+}
+
+.alltutorials *:not(img, .stars) {
+    padding-left: 13px;
+}
+
+
+.lorem{
+    color: white;
+    text-align: center;
+    padding: 60px;
+}
+
+.lorem h1{
+    font-weight: lighter;
+    font-size: 32;
+    margin: 0px auto 80px;
+}
+
+.smilefaces{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.smilefaces div{
+    margin: auto 80px;
+    max-width: 10%;
+}
+
+.register2{
+    background-color: #C271FF;
+    font-weight: 550;
+    color: white;
+    align-items: center;
+    border: none;
+    border-radius: 22px;
+    margin: 80px 0px auto;
+    font-size: 11px;
+    padding: 15px 20px;
+}
+
+
+.FAQ{
+    text-align: center;
+    margin: 60px auto;
+}
+
+.FAQ h1{
+    font-size: 60px;
+    font-weight: lighter;
+}
+
+
+ .faqinside{
+    display: flex;
+    justify-content: center;
+    
+    text-align: left;
+}
+
+.faqinside p{
+    font-weight: lighter;
+}
+
+.faqinside h2{
+    font-size: 16px;
+}
+
+
+.separated{
+    max-width: 20%;
+    margin: auto 200px;
+}
+ 
+footer{
+    background-color: #071629;
+    
+}
+
+.footercontent{
+    padding: 10px;
+}
+
+
+.fcontent{
+    
+    max-width: 70%;
+    margin: 50px auto;
+}
+
+.socialmedia{   
+    float: right;
+    word-spacing: 20px;
+}
+
+.footercontent p{
+    text-align: center;
+}
+
